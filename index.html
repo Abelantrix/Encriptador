@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-419">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <title> Encriptador </title>
+    </head>
+    <body>
+        <header>
+            <div class="encabezado">
+                <img class="logo" src="/imagenes/logo.png">
+                <h1>Encriptador</h1>
+            </div>
+        </header>
+        <main>
+            <section>
+                <p class="importante">🛈 Solo letras minúsculas y sin acentos </p>
+                <textarea placeholder="Escribe aqui tu mensaje" cols="100" rows="3" class="textarea" autofocus></textarea>
+            </section>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            <section>
+                <textarea class="mensaje" cols="100" rows="50" readonly></textarea>
+                <div>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="copyright">Hecho por: Pedro R.</p>
+            <a href="https://github.com/Abelantrix" target="_blank"><img class="git" src="imagenes/github.png"></a>
+            <a href="https://www.linkedin.com/in/pedro-ramirez-hernandez/" target="_blank"><img class="link" src="imagenes/linkedin.png"></a>
+        </footer>
+        <script src="/script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,147 @@
+body {
+font-family: 'Abel', sans-serif;
+background-color: rgba(173, 191, 255, 0.14);
+}
+
+header {
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.encabezado {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 60px;
+}
+
+.logo {
+margin-right: auto;
+width: 25%;
+}
+
+.encabezado h1 {
+margin-left: 10px;
+font-size: 2em;
+font-weight: bold;
+}
+
+.importante {
+display: block;
+text-align: center;
+font-size: 0.9em;
+font-style: italic;
+}
+
+.textarea {
+border: none;
+border-radius: 5px;
+color: black;
+background-color: rgba(173, 191, 255, 0.25);
+text-transform: lowercase;
+font-weight: bold;
+font-size: 1.5em;
+resize: none;
+width: 80%;
+height: 50px;
+margin: 8px auto;
+display: flex;
+}
+
+.textarea:focus {
+outline: none;
+}
+
+.botones {
+display: flex;
+margin: 60px 0;
+justify-content: center;
+align-items: center;
+}
+
+.btn-encriptar,
+.btn-desencriptar {
+margin: 0 15px;
+width: 120px;
+height: 40px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+font-weight: bold;
+font-size: 1em;
+transition: background-color 0.5s ease-in-out;
+}
+
+.btn-encriptar {
+background-color: #A1E7FF;
+}
+
+.btn-encriptar:hover {
+background-color: #0763d4;
+}
+
+.btn-desencriptar {
+background-color: #D0BAFF;
+}
+
+.btn-desencriptar:hover {
+background-color: #7B57C1;
+}
+
+.mensaje {
+border: none;
+border-radius: 5px;
+color: black;
+background-color: rgba(173, 191, 255, 0.22);
+background-image: url("imagenes/esperando.gif");
+background-repeat: no-repeat;
+background-position: center;
+text-transform: lowercase;
+font-weight: bold;
+font-size: 1.5em;
+resize: none;
+width: 80%;
+height: 70px;
+margin: 10px auto;
+display: flex;
+text-align: center;
+}
+
+.mensaje:focus {
+outline: none;
+}
+
+.copiar {
+margin: 0 100px;
+width: 80px;
+height: 20px;
+color: #fff;
+background-color: #763bf7;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+transition: background-color 0.5s ease-in-out;
+font-weight: bold;
+font-size: 1em;
+float: right;
+}
+
+.copiar:hover {
+background-color: #a07fe1;
+}
+
+footer {
+margin: 120px auto;
+text-align: center;
+font-weight: bold;
+font-size: 19px;
+}
+
+.git,
+.link {
+width: 30px;
+height: 30px;
+padding: 15px;
+}
