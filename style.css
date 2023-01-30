@@ -95,7 +95,7 @@ border: none;
 border-radius: 5px;
 color: black;
 background-color: rgba(173, 191, 255, 0.22);
-background-image: url("imagenes/esperando.gif");
+background-image: url("./imagenes/esperando.gif");
 background-repeat: no-repeat;
 background-position: center;
 text-transform: lowercase;
